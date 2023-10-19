@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.arriba{
+background-color:rgba(21, 21, 68, 0.48);
+text-align: center;
+padding: 1.5rem 0;
+
+height: 200px;
+}
+.imagen{
+  filter: contrast(5000%) saturate(0%);
+  width: 80px;
+  height: 76px;
+  
+}
+
+.abajo{
+  background-color: rgba(21, 21, 68, 0.48);
+  text-align: center;
+  padding: 1.5rem 0;
+  height: 161px;
+  }
+
+.texto{
+ display: grid;
+ padding-left: 15px;
+ padding-top: 10px;
+ color: #130cd8a7;
+font-size: x-large;
+letter-spacing: -0.7px
+}
+.text{
+ display: grid;
+ padding-top: 10px;
+ padding-left: 13px;
+ color: #232799ab;
+ font-size: medium;
+ letter-spacing: -0.7px;
+}
+.usuario{
+ display: grid;
+ place-items: center;
+ justify-items: center;
+ padding-top: 30px;
+ 
+}
+
+.contraseña{
+    display: grid;
+    place-items: center;
+    justify-items: center;
+    padding-top: 30px;
+
+}
+
+.login{
+    text-align:start;
+    height:35px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #5744443d;
+    width: 255px;
+    border-width: 1px;
+    
+}
+
+.Boton{
+    display: grid;
+    place-items: center;
+    justify-items: center;
+    padding-top: 60px;
+}
+.bt1{
+    background:#0d40a7c7;
+    color:#ffffff;
+    position:relative;
+    height:40px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    border-radius: 40px;
+    width: 250px;
+   border-style:solid ;
+   border-color: #1c4167;
+  }
+  .bt1:hover{
+    background:#250ce8b7;
+    color:#fbfbfb;
+  }
+.fondo {
+    display: grid  ;
+    background-color: blue;
+    width: 10%;
+    height: 200px;
+  padding-left: 0%;
+  }
+  body{
+    background-color: #225588;
+  }
+
+
+.formulario{
+    width: 340px;
+    height: 400px;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+   margin-bottom: 60px;
+    color: white;
+  
+}
+.udc{
+  filter: contrast(5000%) saturate(0%);
+  width: 530px;
+  height: 84px;
+  padding-right: 200px;
+ padding-top: 20px;
+}
+.acre{
+  filter: contrast(5000%) saturate(0%);
+  width: 530px;
+  height: 84px;
+  padding-left: 200px;
+  padding-top: 20px;
+}
