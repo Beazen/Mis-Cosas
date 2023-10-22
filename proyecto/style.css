@@ -22,8 +22,12 @@ height: 200px;
 .abajo{
   background-color: rgba(21, 21, 68, 0.48);
   text-align: center;
-  padding: 1.5rem 0;
+  position:fixed;
+  bottom:0;
+  width: 100%;
   height: 161px;
+  padding-top: 30px;
+  
   }
 
 .texto{
@@ -122,12 +126,20 @@ letter-spacing: -0.7px
   width: 530px;
   height: 84px;
   padding-right: 200px;
- padding-top: 20px;
+ padding-top: 10px;
 }
 .acre{
   filter: contrast(5000%) saturate(0%);
   width: 530px;
   height: 84px;
   padding-left: 200px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
+.logos{
+display: flex;
+place-items: left;
+
+align-content: space-between;
+justify-content: center;
+}
+
